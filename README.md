@@ -63,18 +63,17 @@ resources:
 
 ## Example usage
 ```
-cards:
-  - type: "custom:postnl-card"
-    delivery: sensor.postnl_delivery
-    distribution: sensor.postnl_distribution
-    letters: sensor.postnl_letters
-    hide:
-      delivered: false
-      first_letter: false
-      header: false
-    date_format: "DD MMM YYYY"
-    time_format: "HH:mm"
-    past_days: 1
+type: "custom:postnl-card"
+delivery: sensor.postnl_delivery
+distribution: sensor.postnl_distribution
+letters: sensor.postnl_letters
+hide:
+  delivered: false
+  first_letter: false
+  header: false
+date_format: "DD MMM YYYY"
+time_format: "HH:mm"
+past_days: 1
  ```
 
 ## Available configuration options
